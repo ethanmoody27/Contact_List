@@ -11,7 +11,7 @@ function App() {
       {selectedContactId ? (
         <div>Selected Contact View</div>
       ) : (
-        <ContactList setSelectedContactId={selectedContactId} />
+        <ContactList setSelectedContactId={setSelectedContactId} />
       )}
     </>
   );
