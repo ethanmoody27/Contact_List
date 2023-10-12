@@ -22,7 +22,6 @@ export default function SelectedContact({ selectedContactId, setSelectedContactI
     
     return (
     <div>
-      <p>Info</p>
     </div>
   )
 }
