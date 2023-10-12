@@ -22,6 +22,9 @@ export default function SelectedContact({ selectedContactId, setSelectedContactI
     
     return (
     <div>
+        <p>{contact.name}</p>
+        <p>{contact.phone}</p>
+        <p>{contact.email}</p>
     </div>
   )
 }
