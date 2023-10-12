@@ -19,7 +19,7 @@ function ContactList() {
                 const data = await response.json();
                 /* console.log("data: ", data); */
                 setContacts(data);
-                console.log("contacts for state: ", contacts);
+                /* console.log("contacts for state: ", contacts); */
             } catch(err) {
                 console.log(err);
             }
